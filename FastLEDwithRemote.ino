@@ -236,8 +236,8 @@ void loop() {
         }
         Serial.println(state);
         break;
-
     }
+    
     if (state != 0 && x != 0) { //if state is not OFF and lights didnt just get turned ON
       switch (results.value) {
         case 0xFF22DD: //A
